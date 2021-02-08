@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio CSS 01</title>
+    <script src="index.js"></script>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <article id="corpo">
+        <div id="card-branco">
+            <img id="tenis" src="assets/tenis-verde.png">
+            <header id="cabecalho">
+                <h2>Nike</h2>
+                <h1>Epic React Flyknit 2</h1>
+                <div id="valor">
+                    <h3>R$</h3>
+                    <span>359,00</span>
+                </div>
+            </header>
+            <div id="spec">
+                <div id="esq">
+                    <section id="cores">
+                        <p>Cores:</p>
+                        <div id="lista">
+                            <input type="button" id="verde" onclick="trocaCor('verde')">
+                            <input type="button" id="vermelho" onclick="trocaCor('vermelho')">
+                            <input type="button" id="azul" onclick="trocaCor('azul')">
+                        </div>
+                    </section>
+                    <section id="tamanhos">
+                        <p>Tamanhos:</p>
+                        <div id="lista2">
+                            <input type="button" class="tam" value="37" onclick="cor()">
+                            <input type="button" class="tam" value="38" onclick="cor()">
+                            <input type="button" class="tam" value="39" onclick="cor()">
+                            <input type="button" class="tam" value="40" onclick="cor()">
+                        </div>
+                    </section>
+
+                </div>
+                <div id="dir">
+                    <button id="compra">
+                        <img src="assets/expand_more_24px_outlined.svg" id="arrow1">
+                        <img src="assets/expand_more_24px_outlined.svg" class="arrow2">
+                        <img src="assets/expand_more_24px_outlined.svg" class="arrow2">
+                        <img src="assets/expand_more_24px_outlined.svg" class="arrow3">
+                        <img src="assets/expand_more_24px_outlined.svg" class="arrow3">
+                        <img src="assets/expand_more_24px_outlined.svg" class="arrow3">
+                        <img src="assets/expand_more_24px_outlined.svg" class="arrow3">
+                        <img src="assets/expand_more_24px_outlined.svg" class="arrow3">
+                        <img src="assets/expand_more_24px_outlined.svg" class="arrow3">
+                        <img src="assets/local_grocery_store-white-18dp.svg" id="carrinho">
+                    </button>
+                </div>
+            </div>
+        </div>
+        </div>
+    </article>
+</body>
+
+</html>

@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+
+article#corpo {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+article#corpo div#card-branco {
+    border-radius: 16px 50px 16px 16px;
+    box-shadow: 5px 5px 30px 10px rgba(0,0,0,0.1);
+    height: 386px;
+    width: 263px;
+    position: relative;
+}
+
+article#corpo div#card-branco img#tenis {
+    position: absolute;
+    bottom: 160px;
+    left: -24px;
+}
+
+article#corpo div#card-branco header#cabecalho {
+    margin: 125px 20px 0 20px;
+}
+
+article#corpo div#card-branco header#cabecalho h1{
+    color: #29455F;
+    font-size: 26px;
+    margin: 0;
+}
+
+article#corpo div#card-branco header#cabecalho h2{
+    color: #8F8F8F;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0;
+}
+
+article#corpo div#card-branco header#cabecalho div#valor {
+    display: flex;
+}
+
+article#corpo div#card-branco header#cabecalho div#valor h3{
+    color: #808080;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 15px 0 0 130px;
+    font-weight: 700;
+}
+
+article#corpo div#card-branco header#cabecalho div#valor span{
+    color: #29455F;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 8px 0 0 5px;
+    font-weight: bold;
+}
+
+article#corpo div#card-branco div#spec {
+    margin: 0 0 0 20px;
+    color: #808080;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+}
+
+article#corpo div#card-branco div#spec div#esq{
+    width: 55%;
+}
+
+article#corpo div#card-branco div#spec div#esq section#cores {
+    margin-bottom: 15px;
+}
+
+article#corpo div#card-branco div#spec div#esq section#cores div#lista {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+article#corpo div#card-branco div#spec div#esq section#cores div#lista input {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    outline: none;
+    border: #fff;
+}
+
+article#corpo div#card-branco div#spec div#esq section#cores div#lista input#verde {
+    background-color: #B5DB48;
+}
+
+article#corpo div#card-branco div#spec div#esq section#cores div#lista input#verde:focus{
+    border: 2px solid black;
+}
+
+article#corpo div#card-branco div#spec div#esq section#cores div#lista input#verde:hover {
+    border: 2px solid black;
+}
+
+article#corpo div#card-branco div#spec div#esq section#cores div#lista input#vermelho{
+    background-color: #FF3838;
+}
+
+article#corpo div#card-branco div#spec div#esq section#cores div#lista input#vermelho:focus{
+    border: 2px solid black;
+}
+
+article#corpo div#card-branco div#spec div#esq section#cores div#lista input#vermelho:hover{
+    border: 2px solid black;
+}
+
+article#corpo div#card-branco div#spec div#esq section#cores div#lista input#azul {
+    background-color: #3864FF;
+}
+
+article#corpo div#card-branco div#spec div#esq section#cores div#lista input#azul:focus{
+    border: 2px solid black;
+}
+
+article#corpo div#card-branco div#spec div#esq section#cores div#lista input#azul:hover{
+    border: 2px solid black;
+}
+
+article#corpo div#card-branco div#spec div#esq section#tamanhos div#lista2{
+    display: flex;
+    justify-content: space-between;
+    width: 92%;
+}
+
+article#corpo div#card-branco div#spec div#esq section#tamanhos div#lista2 input.tam {
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    background-color: #ffffff;
+    color: #808080;
+    padding: 4px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+
+article#corpo div#card-branco div#spec div#esq section#tamanhos div#lista2 input.tam:hover {
+    background-color: #808080;
+    transition: 1s;
+    color:#fff;
+}
+
+article#corpo div#card-branco div#spec div#esq section#tamanhos div#lista2 input.tam:focus{
+    background-color: #B5DB48;
+    color: #fff;
+}
+
+article#corpo div#card-branco div#spec div#dir button#compra{
+    height: 80px;
+    width: 49px;
+    margin-left: 36px;
+    margin-top: 50px;
+    border-radius: 16px;
+    outline: none;
+    border: none;
+    background-color: #B5DB48;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+article#corpo div#card-branco div#spec div#dir button#compra:hover{
+    background-color: #95ca04;
+}
+
+article#corpo div#card-branco div#spec div#dir button#compra:after {
+    content: "";
+    background: #fff;
+    border-radius: 16px;
+    position: absolute;
+    padding-top: 60%;
+    padding-left: 30%;
+    margin-left: -15px !important;
+    margin-top: -20%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  article#corpo div#card-branco div#spec div#dir button#compra:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+
+article#corpo div#card-branco div#spec div#dir button#compra img{
+    position: absolute;
+    width: 25px;
+}
+
+article#corpo div#card-branco div#spec div#dir button#compra img#arrow1{
+padding: 5px 0px 0px 6px;
+}
+
+article#corpo div#card-branco div#spec div#dir button#compra img.arrow2{
+    padding: 12px 0px 0px 6px;
+}
+
+article#corpo div#card-branco div#spec div#dir button#compra img.arrow3{
+    padding: 18px 0px 0px 6px;
+}
+
+article#corpo div#card-branco div#spec div#dir button#compra img#carrinho{
+    color: #DADADA;
+    padding: 40px 0px 0px 6px;
+}
